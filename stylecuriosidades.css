@@ -1,0 +1,101 @@
+:root {
+    --COR1: #615100;
+    --COR2: #FADD4B;
+    --COR3: #E0BB00;
+    --COR4: #61530F;
+    --COR5: #AD9100;
+}
+
+* {
+    margin: 1px;
+    padding: 3PX;
+}
+
+body {
+    background-color: var(--COR5);
+}
+
+header {
+    background-image: linear-gradient(to top, color var(--COR4), color var(--COR1));
+    min-height: 160px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+h1 {
+    color: rgb(70, 34, 19);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+header>p {
+    color: rgb(70, 34, 19);
+    text-align: center;
+}
+
+nav {
+    background-color: var(--COR1);
+    padding: 13px;
+    box-shadow: 1px 2px 6px 3px var(--COR2);
+}
+
+nav>a {
+    color: rgb(43, 23, 14);
+    padding: 12px;
+    text-decoration: wavy;
+    font-weight: bolder;
+    border-radius: 9px;
+    transition: 0.10s;
+}
+
+nav>a:hover {
+    background-color: var(--COR5);
+    color: var(--COR2);
+}
+
+main {
+    background-color: var(--COR2);
+    min-width: 320px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px -1px 6px 2px rgb(70, 34, 19);
+}
+
+h2 {
+    background-image: linear-gradient(to right, color rgb(70, 34, 19) transparent);
+    margin: 14px 0px;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 40px;
+    margin: 15px 0;
+}
+
+img {
+    width: 30%;
+    border: 6px solid rgb(70, 34, 19);
+}
+
+figcaption {
+    font-size: 12px;
+}
+
+footer>p {
+    font-size: 13px;
+    text-align: center;
+}
+
+h2 {
+
+    background-image: linear-gradient(to TOP, var(--COR1), transparent);
+    margin: 14px 0px;
+    color: rgb(48, 26, 17);
+
+}
